@@ -4,7 +4,7 @@ const fs = require('fs')
 const privateKey = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
-  solidity: "0.8.4",
+  solidity: "0.8.0",
   paths: {
     artifacts: "./src/backend/artifacts",
     sources: "./src/backend/contracts",
